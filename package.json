@@ -1,0 +1,32 @@
+{
+  "name": "bower-reporter",
+  "version": "1.0.0",
+  "description": "build reports from bower.json dependencies",
+  "main": "bower-reporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gobixm/bower-reporter.git"
+  },
+  "keywords": [
+    "bower",
+    "report",
+    "html",
+    "csv"
+  ],
+  "author": "Kirill Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gobixm/bower-reporter/issues"
+  },
+  "homepage": "https://github.com/gobixm/bower-reporter#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "from2-array": "0.0.4",
+    "lodash": "latest",
+    "minimist": "^1.2.0",
+    "through2": "^2.0.1"
+  }
+}
