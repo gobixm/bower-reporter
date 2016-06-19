@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var args = require('minimist')(process.argv.slice(2));
 var fs = require('fs');
 var reporter = require('./bower-reporter');
@@ -9,5 +11,5 @@ var projPath = args._[0] ? args._[0] : process.cwd();
 var ws = fs.createWriteStream(savePath);
 reporter.report(ws, projPath, report);
 ws.on('finish', function () {
-   console.log('report saved at '+savePath);
+    console.log('report saved at ' + savePath);
 });
